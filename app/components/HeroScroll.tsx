@@ -107,7 +107,7 @@ export default function HeroScroll() {
       {/* Hero — fixed behind everything */}
       <section
         ref={sectionRef}
-        className="fixed inset-0 z-0 flex items-center justify-center overflow-hidden bg-zinc-50"
+        className="fixed inset-0 z-0 flex items-center justify-center overflow-hidden bg-white"
       >
         {/* Photo panel — starts at right half, expands to full screen */}
         <div ref={panelRef} className="absolute top-0 right-0 w-1/2 h-full">
