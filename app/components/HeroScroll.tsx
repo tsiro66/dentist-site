@@ -12,9 +12,9 @@ function Title({ className }: { className?: string }) {
     <h1
       className={`grid grid-cols-2 text-5xl md:text-7xl lg:text-8xl leading-tight ${className ?? ""}`}
     >
-      <span className="text-right pr-3 md:pr-5">Πέπη</span>
-      <span className="text-left pl-3 md:pl-5">Ρογδάκη</span>
-      <span className="text-right pr-3 md:pr-5">Χειρουργός</span>
+      <span className="text-right pr-3 md:pr-5">Σωκράτης</span>
+      <span className="text-left pl-3 md:pl-5">Χειρούργος</span>
+      <span className="text-right pr-3 md:pr-5">Γκίζας</span>
       <span className="text-left pl-3 md:pl-5">Οδοντίατρος</span>
     </h1>
   );
